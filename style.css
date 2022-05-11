@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section */
+
+header{
+    text-align: center;
+    height: 170px;
+    width: 100%;
+    background-color: rgb(105, 171, 246);
+    background-image: url("./img/pattern.png");
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+main{
+    background-color: rgb(105, 171, 246,0.2);
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+body {
+    background-color: white;
+    margin: 0 auto;
+    width: 55%;
+}
+
+header img{
+    margin-top: 90px;
+}
+
+footer {
+    border-top: 2px solid #000;
+    text-align: center;
+    padding: 10px 10px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 20px 15px 0 15px;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: rgb(105, 171, 246);
+  }
+  
+  a:visited {
+    color: rgb(105, 171, 246);
+  }
+  
+  a:focus, a:hover {
+    border-bottom: 1px solid;
+  }
+  
+  a:active {
+    color: rgb(105, 171, 246);
+  }
+
+.article-images {
+    display: flex;
+    gap: 30px;
+    padding: 20px 0 20px 0;
+}
+
+.section4 >h3{
+    color: rgb(109, 109, 109);
+}
+
+.section-underline{
+    background-image: url("./img/marck-zuck.jpg");
+    background-size: cover;
+    background-position: 50%;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.section-underline > h4{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.section-paddle{
+    background-image: url("./img/padel-player.jpg");
+    background-size: cover;
+    background-position: 50%;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.section-paddle > h4{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.footerColor {
+    color:rgb(255, 0, 81)
+}
+
